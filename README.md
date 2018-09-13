@@ -1,6 +1,10 @@
 # druid-superset
+# Known Issues
 
-#Prerequisites
+* [Time/Timezone consistance] 
+* [Metricspecs] - current schema doesn't support calculation such as compliance rate 
+
+# Prerequisites
 You will need:
 
  - Java 8 or higher
@@ -8,7 +12,7 @@ You will need:
  - 8G of RAM
  - 2 vCPUs
 
-#Druid
+# Druid
 Go to druid-0.12.2 folder 
  - Run zookeeper
  ```sh
@@ -44,7 +48,7 @@ Go to druid-0.12.2 folder
  - sql query at http://localhost:8082/druid/v2/sql
  - json query at http://localhost:8082/druid/v2?pretty
 
-#Superset
+# Superset
 
 * Install superset
 ```sh
